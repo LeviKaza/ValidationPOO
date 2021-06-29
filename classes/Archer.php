@@ -13,7 +13,7 @@ class Archer extends Character {
                 $this->arrow = 2;
                 $status = "$this->name encoche une seconde flèche et se prépare à tirer.";
                 return $status;
-            }else if ($rand == 3) {
+            }else if ($rand == 3 && $this->multiplier == 1) {
                 $up = rand(15, 30)/10;
                 $this->multiplier *= $up;
                 $status = "$this->name prend le temps de viser un point faible de $target->name.";

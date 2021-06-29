@@ -5,7 +5,7 @@ spl_autoload_register(function ($class) {
 });
 
 $player1 = new Archer('Cloup');
-$player2 = new Magician('Vivi');
+$player2 = new Warrior('Vivi');
 ?>
 
 <!DOCTYPE html>
